@@ -1,0 +1,84 @@
+body {
+    background-color: #000000;}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #000d1a;
+  border: 2px solid #15f4ee
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  border: 1px solid #15f4ee
+}
+
+#navbar a:hover {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  background-color: cyan;
+}
+
+
+#navbar p {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar img {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#ugh {
+	padding: 25px;
+	background-color: #000d1a;
+	border-radius: 9px;
+	border: 2px solid #15f4ee;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
